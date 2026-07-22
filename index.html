@@ -3,54 +3,37 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Samsul Familly</title>
+<title>Samsul Family</title>
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
 body{
+    font-family:Arial;
     background:#f4f6f9;
+    margin:0;
 }
 
 header{
-    background:linear-gradient(90deg,#4facfe,#00c6fb);
+    background:#00b7ff;
     color:white;
     text-align:center;
     padding:30px;
 }
 
-header h1{
-    margin-bottom:10px;
-}
-
 .container{
     width:90%;
-    max-width:1200px;
-    margin:40px auto;
-}
-
-.family{
+    margin:auto;
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
     gap:20px;
+    padding:40px;
 }
 
 .card{
     background:white;
     border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
     overflow:hidden;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
-    transition:.3s;
     text-align:center;
-}
-
-.card:hover{
-    transform:translateY(-8px);
 }
 
 .card img{
@@ -61,20 +44,16 @@ header h1{
 
 .card h2{
     color:#2196F3;
-    margin-top:15px;
 }
 
-.card p{
-    padding:10px 20px 20px;
-    color:#555;
-}
-
-footer{
-    margin-top:50px;
-    background:#222;
+a{
+    display:inline-block;
+    margin:20px;
+    padding:10px 20px;
+    background:#2196F3;
     color:white;
-    text-align:center;
-    padding:20px;
+    text-decoration:none;
+    border-radius:8px;
 }
 </style>
 
@@ -82,60 +61,46 @@ footer{
 <body>
 
 <header>
-    <h1>Samsul Familly</h1>
-    <p>Kami adalah keluarga yang saling menyayangi dan selalu mendukung satu sama lain.</p>
+<h1>Samsul Family</h1>
+<p>Selamat Datang di Website Keluarga Kami</p>
 </header>
 
 <div class="container">
 
-<div class="family">
-
 <div class="card">
-<img src="WhatsApp Image Ayah.jpeg" alt="Ayah">
+<img src="WhatsApp Image Ayah.jpeg">
 <h2>Ayah</h2>
-<p><b>Nama:</b> Samsul Bahri<br>
-Pekerjaan: Pegawai Negri<br>
-Hobi: Memancing</p>
-Tanggal lahir : 02-02-1982 </p>
+<a href="ayah.html">Lihat Profil</a>
 </div>
 
 <div class="card">
-<img src="WhatsApp Image Ibu.jpeg" alt="Ibu">
+<img src="WhatsApp Image Ibu.jpeg">
 <h2>Ibu</h2>
-<p><b>Nama:</b> Rosita<br>
-Pekerjaan: Pegawai Negri<br>
-Hobi: Memasak & Membaca</p>
-Tanggal lahir : 04-08-1976 </p>
+<a href="ibu.html">Lihat Profil</a>
 </div>
 
 <div class="card">
-<img src="WhatsApp Image Yuzril.jpeg" alt="Anak Pertama">
+<img src="WhatsApp Image Yuzril.jpeg">
 <h2>Anak Pertama</h2>
-<p><b>Nama:</b> Yuzril Fauzan Hakim<br>
-Mahasiswa Sistem Informasi<br>
-Hobi: Coding & Musik</p>
-Tanggal lahir : 30-06-2006 </p>
+<a href="anak1.html">Lihat Profil</a>
 </div>
 
 <div class="card">
-<img src="WhatsApp Image Fathiyyah.jpeg" alt="Anak Kedua">
+<img src="WhatsApp Image Fathiyyah.jpeg">
 <h2>Anak Kedua</h2>
-<p><b>Nama:</b> Nur Fathiyyah Kamilah<br>
-Siswi SMA<br>
-Hobi: Melukis & Menari</p>
-Tanggal lahir : 31-03-2010 </p>
+<a href="anak2.html">Lihat Profil</a>
 </div>
 
 <div class="card">
-<img src="WhatsApp Image Anna.jpeg" alt="Anak Ketiga">
+<img src="WhatsApp Image Anna.jpeg">
 <h2>Anak Ketiga</h2>
-<p><b>Nama:</b> Anna Altafunnisa<br>
-Siswi SD<br>
-Hobi: Bermain </p>
-Tanggal lahir : 01-10-2016 </p>
+<a href="anak3.html">Lihat Profil</a>
 </div>
 
 </div>
+
+</body>
+</html>
 
 </div>
 
